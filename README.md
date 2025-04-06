@@ -1,3 +1,11 @@
+# このリポジトリについて
+個人的に使用しているAtCoder用環境を公開しています。
+特に理由はないですが、online judge toolsやmakefileをベースに動かしています。
+エディターはVS Codeを使用しています。
+WSL2(bash)、Mac(zsh)の両方でも使えるようにしたいです。
+まだまだ改善点があると思いますので、詳しい方ぜひissue/PRいただけると嬉しいです！
+
+## 使用方法
 ### 事前準備
 - homebrew, python(3.12), pipxインストール推奨
 
@@ -8,7 +16,7 @@ $ pip3 install --user online-judge-tools
 - ojがAtCoderにログイン
 `oj login https://atcoder.jp/` or `make login`
 
-### 試合中
+### コンテスト中
 1. `make init`で古いコード・テストケースを削除
 2. main.cpp に　C++のコードを書く
 3. `oj d <URL>`で公式のテストケースをDL
