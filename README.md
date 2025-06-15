@@ -28,3 +28,8 @@ $ pip3 install --user online-judge-tools
 
 - ターミナルと対話式
 `oj t/r`コマンドがあるが、テストケースをAtCoder側で用意していなければ使用不可。代わりにサンプルテストケースを`/self_testcases`で定義し、`make self`でコンパイル＋実行結果を見る。大丈夫なら手動で提出。
+
+
+## 参考記事
+[【VScode + WSL / Windows】C++ 用の AtCoder 向け環境構築をしてみた。(WSL導入からGitによるソースコード管理まで)](https://yuulis.hatenablog.com/entry/atcoder-cpp-env-build#%E3%81%8A%E3%81%BE%E3%81%91WSL-%E3%81%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E5%89%8A%E9%99%A4%E3%81%97%E3%81%A6%E3%82%84%E3%82%8A%E7%9B%B4%E3%81%99%E5%A0%B4%E5%90%88)
+[VSCodeで競技プログラミング環境（C++）を構築してみた](https://zenn.dev/gnz/articles/361773e44fcc41)
